@@ -1,0 +1,198 @@
+export const products = [
+  {
+    id: "1",
+    productName: "Pencil",
+    price: "$0.50",
+    stocks: 100,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Writing Instruments",
+    description: "Classic wooden pencil, suitable for everyday writing tasks.",
+  },
+  {
+    id: "2",
+    productName: "Ballpoint Pens (Pack of 5)",
+    price: "$2.99",
+    stocks: 50,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Writing Instruments",
+    description:
+      "A pack of 5 ballpoint pens with smooth ink flow, perfect for note-taking.",
+  },
+  {
+    id: "3",
+    productName: "Notebook",
+    price: "$3.49",
+    stocks: 30,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Paper Products",
+    description:
+      "Spiral-bound notebook with lined pages, ideal for jotting down notes.",
+  },
+  {
+    id: "4",
+    productName: "Eraser",
+    price: "$0.99",
+    stocks: 80,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Stationery",
+    description:
+      "Soft vinyl eraser for cleanly removing pencil marks without smudging.",
+  },
+  {
+    id: "5",
+    productName: "Mechanical Pencils (Pack of 3)",
+    price: "$4.99",
+    stocks: 40,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Writing Instruments",
+    description:
+      "Pack of 3 mechanical pencils with refillable lead, perfect for precise writing.",
+  },
+  {
+    id: "6",
+    productName: "Highlighters (Assorted Colors, Pack of 4)",
+    price: "$3.99",
+    stocks: 60,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Writing Instruments",
+    description:
+      "Assorted color highlighters for marking important passages in textbooks.",
+  },
+  {
+    id: "7",
+    productName: "Binder Clips (Pack of 12)",
+    price: "$2.49",
+    stocks: 70,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Organization",
+    description: "Durable metal binder clips for securing papers together.",
+  },
+  {
+    id: "8",
+    productName: "Sticky Notes (Pack of 100)",
+    price: "$1.99",
+    stocks: 90,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Organization",
+    description:
+      "Colorful sticky notes for marking pages or jotting down reminders.",
+  },
+  {
+    id: "9",
+    productName: "Ruler",
+    price: "$1.29",
+    stocks: 80,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Stationery",
+    description:
+      "12-inch plastic ruler with both metric and imperial measurements.",
+  },
+  {
+    id: "10",
+    productName: "Calculator",
+    price: "$9.99",
+    stocks: 30,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Electronics",
+    description:
+      "Basic scientific calculator with large display, suitable for math classes.",
+  },
+  {
+    id: "11",
+    productName: "Graph Paper (50 Sheets)",
+    price: "$2.49",
+    stocks: 50,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Paper Products",
+    description: "50 sheets of graph paper for plotting graphs or diagrams.",
+  },
+  {
+    id: "12",
+    productName: "Backpack",
+    price: "$19.99",
+    stocks: 20,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Bags",
+    description:
+      "Durable backpack with multiple compartments, perfect for carrying books and supplies.",
+  },
+  {
+    id: "13",
+    productName: "Markers (Assorted Colors, Pack of 12)",
+    price: "$6.99",
+    stocks: 40,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Writing Instruments",
+    description:
+      "Pack of 12 assorted color markers for vibrant note-taking and art projects.",
+  },
+  {
+    id: "14",
+    productName: "Index Cards (100 Pack)",
+    price: "$1.99",
+    stocks: 60,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Paper Products",
+    description: "100 pack of blank index cards for flashcards or quick notes.",
+  },
+  {
+    id: "15",
+    productName: "Scissors",
+    price: "$2.99",
+    stocks: 70,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Stationery",
+    description:
+      "Stainless steel scissors with comfortable handles for precise cutting.",
+  },
+  {
+    id: "16",
+    productName: "Glue Stick (Pack of 3)",
+    price: "$2.49",
+    stocks: 50,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Adhesives",
+    description:
+      "Pack of 3 washable glue sticks for adhering paper and lightweight materials.",
+  },
+  {
+    id: "17",
+    productName: "USB Flash Drive (16GB)",
+    price: "$7.99",
+    stocks: 30,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Electronics",
+    description:
+      "16GB USB flash drive for storing and transferring digital files.",
+  },
+  {
+    id: "18",
+    productName: "Whiteboard Marker (Black)",
+    price: "$0.99",
+    stocks: 100,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Writing Instruments",
+    description:
+      "Black whiteboard marker with quick-drying ink, suitable for whiteboard surfaces.",
+  },
+  {
+    id: "19",
+    productName: "Binder Dividers (Pack of 5)",
+    price: "$3.49",
+    stocks: 40,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Organization",
+    description:
+      "Pack of 5 binder dividers with tabs for organizing school subjects.",
+  },
+  {
+    id: "20",
+    productName: "Protractor",
+    price: "$1.99",
+    stocks: 60,
+    image: "https://via.placeholder.com/200x300/cccccc/ffffff?text=Thumbnail",
+    category: "Stationery",
+    description:
+      "Clear plastic protractor with accurate angle measurements for geometry tasks.",
+  },
+];
