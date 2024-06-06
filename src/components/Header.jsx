@@ -4,7 +4,7 @@ import { Button, Image } from "antd";
 
 const Header = () => {
   return (
-    <Container className="p-2 flex flex-row justify-between bg-[#EEEEEE]">
+    <Container className="p-2 flex flex-row justify-between bg-gray-50 border-b border-gray-300">
       <Container className="flex flex-frow p-6">
         <Image
           className="flex-grow border-none shadow-none h-full"

@@ -1,15 +1,13 @@
 import React from "react";
-import { Container, Text } from "../components";
-import { Card } from "antd";
+import { Container, ItemCard } from "../components";
 
 const HomePage = () => {
   return (
-    <Container className="p-4 flex flex-col h-screen">
-      <Container className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xsm: grid-cols.1 gap-4">
-        <Card>asd</Card>
-        <Card>asd</Card>
-        <Card>asd</Card>
-        <Card>asd</Card>
+    <Container className="flex flex-col h-full p-8 bg-[#F6F5F2]">
+      <Container className="grid grid-cols-4 gap-4">
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((e) => (
+          <ItemCard />
+        ))}
       </Container>
     </Container>
   );
